@@ -1,0 +1,80 @@
+body {
+    background-color: #232323;
+}
+
+body, html {
+    margin: 0;
+}
+
+.squares {
+    width: 30%;
+    padding-bottom: 30%;
+    background: purple;
+    margin: 1.66%;
+    float: left;
+    border-radius: 20px;
+    transition: background 0.5s;
+    -webkit-transition: background 0.6s;
+    -moz-transition: background 0.6s ;
+}
+
+#container {
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+h1 {
+    font-family: 'Lexend Tera', sans-serif;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+#header {
+    background-color: #1E90FF;
+    margin: 0;
+}
+
+#messageColor {
+    font-size: 3.5rem;
+}
+
+#message {
+    font-family: 'Lexend Tera', sans-serif;
+    text-align: center;
+    color: #000;
+    margin: 0;
+    display: inline-block;
+    width: 20%;
+}
+
+#stripe {
+    background-color: #eaeaea;
+    height: 40px;
+    color: black;
+    text-align: center;
+}
+
+button {
+    border: none;
+    font-family: 'Lexend Tera', sans-serif;
+    height: 100%;
+    font-weight: 700;
+    color: #1E90FF;
+    background-color: none;
+    outline: none;
+}
+
+button:hover {
+    background: #1E90FF;
+    color: #fff;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s ;
+}
+
+.selected {
+    background: #1E90FF;
+    color: #fff;
+}

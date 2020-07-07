@@ -1,0 +1,57 @@
+.done {
+    text-decoration: line-through;
+    color: #c10000;
+}
+
+body {
+    background-color: #060606;
+    color: #fff;
+    font-family: 'Lexend Tera', sans-serif;
+}
+
+#title {
+    text-align: center;
+}
+
+#title h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+#title h3 {
+    margin: 0;
+    font-weight: 300;
+}
+
+#displayToDo {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 1.5rem;
+}
+
+input {
+    padding: 10px;
+}
+
+#list {
+    display: table;
+    margin: 0 auto;
+}
+
+li {
+    padding-top: .5rem;
+}
+
+.textfield {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#btns {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+button {
+    padding: 5px;
+}
